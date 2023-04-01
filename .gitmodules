@@ -1,0 +1,4 @@
+[submodule "themes/h2o-theme"]
+	path = themes/h2o-theme
+	url = https://github.com/n8design/htwoo-theme.git
+	branch = main
