@@ -1,0 +1,24 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'hTWOo'
+
+theme: 'htwoo-theme'
+
+
+params:
+  seoTitle: 'The LAB by N8D'
+  siteDescription: "Research and Innovation by N8D, Products, Projects and tryouts"
+  author: "Stefan Bauer / N8D"
+  github: "https://github.com/stfbauer"
+  facebook: "https://www.facebook.com/n8dstudio"
+  og_image: "/images/og.png"
+  sitename: "The LAB by N8D"
+  twitter: "@stfbauer"
+  dateFormat: "January 2, 2006"
+  
+
+# enable full markup
+markup:
+  goldemark:
+    renderer:
+      unsafe: true
