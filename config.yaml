@@ -2,7 +2,7 @@ baseURL: 'http://lab.n8d.studio/'
 languageCode: 'en-us'
 title: 'hTWOo'
 
-theme: 'htwoo-theme'
+theme: 'h2o'
 
 
 params:
