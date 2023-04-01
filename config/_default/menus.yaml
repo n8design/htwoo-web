@@ -1,0 +1,35 @@
+main:
+- name: Media
+  url: '/media'
+  weight: 190
+  params:
+    blank: false
+footer:
+- name: "Footer Nav 1"
+  url: https://n8d.at
+  target: '_blank'
+  params:
+    blank: true
+- name: "Footer Nav 2"
+  url: https://n8d.at
+  target: '_blank'
+  params:
+    blank: true
+- name: "Footer Nav 3"
+  url: https://n8d.at
+  target: '_blank'
+  params:
+    blank: true
+legal:
+  - name: "Imprint"
+    url: /imprint
+    params:
+      blank: false
+  - name: "About"
+    url: https://n8d.at
+    params:
+      blank: false
+  - name: "Contact"
+    url: https://n8d.at
+    params:
+      blank: true
