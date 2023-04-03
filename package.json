@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "staged": "git add public && git add themes/no-theme",
     "hugo:build": "hugo build",
-    "hugo:dev": "hugo server"
+    "hugo:dev": "hugo server --gc --disableFastRender --buildFuture --buildDrafts"
   },
   "author": "Stefan Bauer",
   "license": "ISC",
