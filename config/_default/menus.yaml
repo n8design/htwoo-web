@@ -1,8 +1,21 @@
 main:
-- name: Media
-  url: '/media'
-  weight: 190
+- name: About hTWOo
+  url: /readme,
+  weight: 100
+- name: Sponsors
+  url: /sponsors,
+  weight: 110
+- name: Guidelines
+  url: '/guidelines'
+  weight: 120
   params:
+    dynamic: true
+    blank: false
+- name: How To's
+  url: '/how-to'
+  weight: 130
+  params:
+    dynamic: true
     blank: false
 footer:
 - name: "Footer Nav 1"
