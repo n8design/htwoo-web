@@ -1,10 +1,7 @@
 ---
 title: "Solvion"
-link: https://solvion.at
+link: https://www.solvion.net/
 logo: "solvion.svg"
 tagline: "Focus on people. Supported by established Microsoft technology."
 draft: false
 ---
-
-Solvion
-![alt text](solvion.svg)

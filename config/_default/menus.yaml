@@ -1,4 +1,7 @@
 main:
+- name: Introduction
+  url: /why-htwoo
+  weight: 90
 - name: About hTWOo
   url: /readme,
   weight: 100
