@@ -87,16 +87,13 @@ To retrieve the current theme color slots add the following code in your web par
 
     } else {
 
-      // Fallback to core theme state options applicable for 
-      // Single Canvas Apps and Microsoft Teams
+      // Fallback to core theme state options applicable for Single Canvas Apps and Microsoft Teams
       this.setCSSVariables(window["__themeState__"].theme)
 
     }
 
     // Register a handler to be notified if the theme variant changes
-    this._themeProvider.themeChangedEvent.add(
-        this, 
-        this._handleThemeChangedEvent);
+    this._themeProvider.themeChangedEvent.add(this, this._handleThemeChangedEvent);
 
     return super.onInit();
   }
@@ -193,16 +190,13 @@ Move to the `src/app/{webpartname-web-part}/{webpartname-web-part.componenent.ht
     <h3>Forms</h3>
     <div class="hoo-radiobutton-group">
     <div>
-        <input type="checkbox" name="chbg1" id="chbg1" value="" class="hoo-checkbox">
-        <label for="chbg1">Apple</label>
+        <input type="checkbox" name="chbg1" id="chbg1" value="" class="hoo-checkbox"><label for="chbg1">Apple</label>
     </div>
     <div>
-        <input type="checkbox" name="chbg2" id="chbg2" value="" class="hoo-checkbox">
-        <label for="chbg2">Avocado</label>
+        <input type="checkbox" name="chbg2" id="chbg2" value="" class="hoo-checkbox"><label for="chbg2">Avocado</label>
     </div>
     <div>
-        <input type="checkbox" name="chbg3" id="chbg3" value="" class="hoo-checkbox">
-        <label for="chbg3">Banana</label>
+        <input type="checkbox" name="chbg3" id="chbg3" value="" class="hoo-checkbox"><label for="chbg3">Banana</label>
     </div>
     </div>
     <hr>
@@ -217,7 +211,7 @@ Move to the `src/app/{webpartname-web-part}/{webpartname-web-part.componenent.ht
 
 A complete reference of all components can be found in the [style guide](https://lab.n8d.studio/htwoo/htwoo-core/?p=all).
 
-## hTWOo and theming
+## H2O and theming
 
 The way hTWOo handles theming and theme slots also allow you to change the theme without any extra effort and coding.
 
@@ -236,4 +230,4 @@ You will find all sample in the [hTWOo Sample](https://github.com/n8design/htwoo
 * [How to make CSS Variables work in every web part context](https://n8d.at/how-to-make-css-variables-work-in-every-web-part-context/)
   
 
-[controls-theming]: ./how-to-spfx-angular-elements-theme.png "Theming"
+[controls-theming]: ../how-to-spfx-angular-elements-theme.png "Theming"

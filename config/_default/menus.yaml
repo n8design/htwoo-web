@@ -20,6 +20,17 @@ main:
   params:
     dynamic: true
     blank: false
+- name: Code of Conduct
+  url: /code-of-conduct
+  weight: 140
+  params:
+    blank: false
+- name: License
+  url: /licenses
+  weight: 150
+  params:
+    blank: false
+
 footer:
 - name: "Footer Nav 1"
   url: https://n8d.at

@@ -2,3 +2,7 @@
 	path = themes/h2o
 	url = https://github.com/n8design/htwoo-theme.git
 	branch = main
+[submodule "public"]
+	path = public
+	url = https://github.com/n8design/htwoo/
+	branch = main

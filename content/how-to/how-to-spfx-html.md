@@ -222,7 +222,7 @@ You can now add additional functionalities and other buttons to your code or jus
 
 A complete reference of all components can be found in the [style guide](https://lab.n8d.studio/htwoo/htwoo-core/?p=all).
 
-## hTWOo and theming
+## H2O and theming
 
 The way hTWOo handles theming and theme slots also allow you to change the theme without any extra effort and coding.
 
@@ -246,7 +246,7 @@ You will find all sample in the [hTWOo Sample](https://github.com/n8design/htwoo
   
 
 
-[button]: ./how-to-spfx-html-button.png "Standard Button"
-[button-primary]: ./how-to-spfx-html-button-primary.png "Primary Button"
-[button-theming]: ./how-to-spfx-html-theming-1.png "Theming"
-[button-dark-themed]: ./how-to-spfx-html-dark-themed-button.png "Theming"
+[button]: ../how-to-spfx-html-button.png "Standard Button"
+[button-primary]: ../how-to-spfx-html-button-primary.png "Primary Button"
+[button-theming]: ../how-to-spfx-html-theming-1.png "Theming"
+[button-dark-themed]: ../how-to-spfx-html-dark-themed-button.png "Theming"
